@@ -1,18 +1,16 @@
 ---
-theme: seriph
-background: ./img/bg.jpg
-class: text-center
-highlighter: shiki
-lineNumbers: false
-drawings:
-  persist: false
-transition: slide-left
-title: Hop.nvimのすゝめ
+marp: true
+class:
+  - invert
+size: 16:9
+paginate: true
 ---
 
 # Hop.nvim のすゝめ
 
 See2et/しーぜっと
+
+![bg brightness:0.7](../img/bg.jpg)
 
 ---
 
@@ -23,9 +21,7 @@ See2et/しーぜっと
 - VRChat.vim の共同管理人
 - Neovim の初心者ユーザ
 - 好きな言語: TypeScript
-<div class="w-80 relative">
-  <img src="img/prof.png" border="rounded"/>
-</div>
+  ![w:400](../img/prof.png)
 
 ---
 
@@ -82,9 +78,7 @@ See2et/しーぜっと
 1. `:HopWord`を実行
 1. 移動先の文字列を入力
 
-<div class="w-100 relative">
-  <img src="img/img001.png" border="rounded"/>
-</div>
+![w:600](../img/img001.png)
 
 ---
 
@@ -95,9 +89,7 @@ See2et/しーぜっと
 
 他にも色々なオプションがある
 
-<div class="w-100 relative">
-  <img src="img/img002.png" border="rounded"/>
-</div>
+![w:600](../img/img002.png)
 
 ---
 
